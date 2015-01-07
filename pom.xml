@@ -22,6 +22,7 @@
         <version>2.9.1</version>
         <configuration>
           <show>public</show>
+          <excludePackageNames>ys.metric.benchmark</excludePackageNames>
         </configuration>
       </plugin>
     </plugins>

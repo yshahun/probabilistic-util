@@ -1,4 +1,4 @@
-package ys.metric;
+package ys.metric.benchmark;
 
 import java.util.Random;
 import java.util.UUID;
@@ -9,6 +9,8 @@ import org.openjdk.jmh.annotations.GroupThreads;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;
 
+import ys.metric.CardinalityMeter;
+import ys.metric.StringLinearCounterFactory;
 import ys.probabilistic.util.MurmurHashers;
 
 public class CardinalityMeterBenchmark {
